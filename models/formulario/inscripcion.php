@@ -64,11 +64,14 @@ if (!isset($_SESSION['usuario'])) {
                 <li>
                 <?php
                         require('documento.php')
-                ?>              
+                ?> 
+                </li>
                 <li>
+
                     <a href="#" onclick="error()">Contact</a>
                 </li>
             </ul>
+        
 
             <ul class="list-unstyled CTAs">
                 <li>
@@ -137,12 +140,12 @@ if (!isset($_SESSION['usuario'])) {
             </section>
             </section>
 
-            <!-- <section class="infoTecnica" id="infoTecnica" style="display: none">
+            <section class="infoTecnica" id="infoTecnica" style="display: none">
                 <section class="infoTecnica__container" id="infoTecnica">
                     <h2>Información Tecnica</h2>
                    
             </section>
-            </section> -->
+            </section>
 
 
 

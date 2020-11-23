@@ -172,7 +172,7 @@
           
 
              echo '<td>
-             <a onclick="javascript: return confirm(\'Desea ver registro?\')" href="../../pdf.php?id2='.$registro["cedula"].'">
+             <a onclick="javascript: return confirm(\'Desea ver registro?\')" href="../../pdf.php?id='.$registro["cedula"].'">
             <i class="fas fa-file-alt"></i></a>';
             echo '</td>';
                     

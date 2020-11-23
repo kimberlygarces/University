@@ -34,6 +34,7 @@ if ($filas == !0) {
     
     // echo "num filas:  ".$filas."<br>";
     $_SESSION['usuario'] = $correo;
+    
     $user = $registro['Id_Usuario'];
     // echo "here";
     // echo "Sesion:  ".$_SESSION."<br>";
@@ -46,7 +47,6 @@ if ($filas == !0) {
     
 } else {
     // header('location:index.php?ci');
-echo "cagada";
 
     echo '<script language="javascript">alert("Error de autentificacion");
     window.location.href="../index.html"</script>';

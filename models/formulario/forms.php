@@ -63,8 +63,8 @@ if (!isset($_SESSION['usuario'])) {
                         require('documento.php')
                     ?>
                  </li>
+
                 <li>
-                
                     <a href="#" onclick="error()">Contact</a>
                 </li>
             </ul>
